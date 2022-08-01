@@ -1,0 +1,450 @@
+/*-----------Name: Tanay Dubey-----------*/ 
+/*-----------ASU ID: 1217082841-----------*/ 
+/*-----------CIS Final Project-----------*/ 
+
+/*-----------pure css--------*/ 
+
+*{
+margin: 0;
+padding: 0;
+}
+body {
+	font-family: Poppins, sans-serif;
+	
+}
+/*-----------common classes--------*/
+p {
+	line-height: 30px;
+	box-sizing: inherit;
+}
+section {
+	display: grid;
+}
+.seccus-award-faq{
+	display: grid;
+}
+.footer {
+	display: grid;
+}
+.text-center {
+	text-align: center;
+}
+.text-white {
+	color: white;
+}
+.text-blue {
+	color: 0071BC;
+}
+.text-justify {
+	text-align: justify;
+}
+.mt-240{
+	margin-top: 240px;
+}
+.mt-110{
+	margin-top: 150px;
+}
+.mt-180{
+	margin-top: 220px;
+}
+.mt-65{
+	margin-top: 65px;
+}
+.mt-15 {
+	margin-top: 15px;
+}
+.mt-30 {
+	margin-top: 30px;
+}
+.text-gr{
+	color: #828282;
+}
+.main-row {
+	width: 100%;
+}
+.col-desktop-6 {
+	width: 50%;
+	float: left;
+	flex-wrap: wrap;
+}
+.col-desktop-3 {
+    width: 22.7%;
+	float: left;
+    margin: 14px;
+}
+.btn {
+    cursor: pointer;
+    border: 3px solid #000000;
+    background-color: transparent;
+    color: #ffffff;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+	border-radius: 8px;
+	padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+	font-size: 18px;
+	transition: all 1.2s;
+}
+
+button:hover {
+    background-color: #0071BC;
+}
+table {
+	border-collapse: collapse;  
+	width: 100%; 
+    background: rgba(0,0,0,0); 
+	
+}		 
+th {
+    padding: 0.5em; 
+	
+}
+td     {
+    text-align: justify;
+	padding: 10px 20px 9px 20px; 
+}
+.table-background-class{
+	background-image: linear-gradient(to right, #27A7BC 56%, #0071BC);
+}
+.table-row-color{
+	color: #000000;
+}
+.table-column-align{
+	text-align: center;
+}
+/*-----------Header start--------*/
+.navbar {
+	overflow: hidden;
+	background-color: #333;
+    padding: 0px 30px;
+    height: 70px;
+}
+.logo-div {
+	width: 30%;
+	float: left;
+}
+.logo-div img {
+	width: 60px;
+	height: 60px;
+    padding: 5px;
+}
+.nav-menu {
+	width: 70%;
+	float: left;
+}
+.navbar li{
+  float: left;
+  font-size: 20px;
+  color: white;
+	display: inline-flex;
+	text-align: center;
+	padding: 11px 20px;
+  text-decoration: none;
+    margin-left: 5px;
+}
+
+.nav-menu-ul {
+	float: right;
+	padding: 15px 0px;
+}
+.nav-menu-ul li{
+	list-style: none;
+}
+.navbar li:hover {
+	border-radius: 5px;
+  	background-color: #0071BC;
+}
+.active, .li:hover {
+  border-radius: 5px;
+  background-color: #0071BC;
+}
+
+/*-----------Home Banner start--------*/
+.home-banner {
+	width: 100%;
+	height: 691px;
+    background-size: cover;
+}
+.home-banner-content {
+    padding: 80px 120px;
+}
+.home-banner-content h1 {
+    font-size: 3.9rem;
+}
+.home-banner-content img{
+	width: 100px;
+	padding-top: 70px;
+}
+/*-----------About section--------*/
+.main-about-section {
+	padding: 70px 0px;
+}
+.about-container {
+    padding: 0px 120px;
+}
+.home-about-content {
+    padding: 10px 36px;
+}
+.about-logo {
+	padding: 0px 15px
+}
+.about-logo h1 {
+	font-size: 40px;
+}
+.about-logo hr {
+ width: 70%;
+}
+.test-container {
+	 padding: 0px 15px;
+}
+.home-test-section {
+	padding: 60px 0px;
+}
+.main-test-col {
+}
+.test-heading-main {
+	height: 60px;
+	font-size: 25px;
+}
+.main-box-test {
+    height: 310px;
+    width: 100%;
+    background-size: cover;
+}
+.main-box-test h1 {
+	font-size: 45px;
+}
+.main-box-test p {
+	font-size: 17px;
+}
+.main-box-test-content {
+	padding: 15px;
+}
+.program-test-section {
+	background-color: #f7f8fc;
+	padding: 40px 0px;
+}
+.Programs-container {
+	padding: 0px 50px;
+}
+.main-box-prgram{
+	background-color: #fff;
+    height: 310px;
+}
+.main-box-prgram img{
+	width: 100%;
+
+}
+.map-test-section{
+    padding: 100px 0px;
+}
+.main-box-map  img{
+    width: 36px;
+    margin-left: 137px; 	
+}
+.seccus-award-faq {
+	height: 100px;
+	background-color:#f7f8fc; 
+}
+.main-secccs-1 {
+    padding: 35px 4px;
+}
+.seccs-hr {
+	width: 30%;
+    float: left;
+    text-align: center;
+    margin-top: 15px;
+}
+.main-secccs-2 {
+    padding: 35px 4px;
+}
+
+.faq-content-ul{
+	margin-left: 20px;
+	padding-left: 20px;
+	line-height: 1.8;
+}
+
+.footer {
+	height: 150px;
+	background-color: #212529;
+}
+.footer-main {
+padding: 64px 1px;
+}
+
+
+input[type=text], select, textarea {
+  width: 98%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+padding: 30px 90px;
+  background-color: #fff;
+}
+.main-contact {
+    padding: 74px 200px;
+	background-color: #f2f2f2;
+}
+.main-coantct-detail {
+	padding: 50px;
+}
+.main-coantct-detail h1 {
+	font-size: 45px;
+}
+.gmat-section {
+	padding: 70px 19px;
+}
+.gmat-image img {
+	background-size: cover;
+	width: 97%;
+	box-shadow: 5px 5px;
+}
+.sat-image img {
+	background-size: cover;
+	width: 85%;
+	box-shadow: 5px 5px;
+}
+.gmat-content p {
+ font-size: 20px;
+ line-height: 1.8;
+}
+.video-faq{
+	box-shadow: 5px 5px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .about-container {
+    padding: 0px 20px;
+}
+.col-desktop-3 {
+    width: 98%;
+    float: left;
+    margin: 6px;
+}
+.gmat-content p {
+    font-size: 19px;
+}
+.main-box-test {
+    height: 341px;
+    width: 100%;
+    background-size: cover;
+}
+.main-box-test h1 {
+    font-size: 45px;
+}
+.main-secccs-2 {
+    padding: 3px 4px;
+}
+.main-box-test p {
+    font-size: 21px;
+}
+.col-desktop-6 {
+    width: 100%;
+    float: left;
+    flex-wrap: wrap;
+}
+.home-banner-content h1 {
+    font-size: 1.9rem;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    padding: 0px 30px;
+    height: 139px;
+}
+.home-banner-content {
+    padding: 60px 50px;
+}
+.main-contact {
+    padding: 61px 20px;
+}
+.container {
+    border-radius: 5px;
+    padding: 30px 24px;
+    background-color: #fff;
+}
+.navbar li {
+    float: left;
+    font-size: 10px;
+    color: white;
+    display: inline-flex;
+    text-align: center;
+    padding: 13px 24px;
+    text-decoration: none;
+    margin-left: 5px;
+}
+.main-box-map img {
+    width: 36px;
+    margin-left: 111px;
+}
+.logo-div img {
+    width: 60px;
+    padding: 32px 2px;
+}
+.seccus-award-faq {
+    height: 100px;
+    background-color: #f7f8fc;
+    height: 150px;
+}
+
+} 
+
+summary {
+  font-size: 1.25rem;
+  font-weight: 600;
+  background-color: #fff;
+  color: #333;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  outline: none;
+  border-radius: 0.25rem;
+  text-align: left;
+  cursor: pointer;
+  position: relative;
+}
+details > summary::after {
+  position: absolute;
+  content: "+";
+  right: 20px;
+}
+details[open] > summary::after {
+  position: absolute;
+  content: "-";
+  right: 20px;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details[open] summary ~ * {
+  animation: sweep .5s ease-in-out;
+}
+@keyframes sweep {
+  0%    {opacity: 0; margin-top: -10px}
+  100%  {opacity: 1; margin-top: 0px}
+}
